@@ -1,0 +1,98 @@
+[
+ {
+  "config_id": "adamw_p71_a0.40_d128_h4_H512_wd1e+00_lr1e-03__ctrl",
+  "arm": "none",
+  "group": "none",
+  "rho": 1.0,
+  "p": 71,
+  "alpha": 0.4,
+  "seeds": 16,
+  "grok_frac": 1.0,
+  "T_grok_median": 1919.0,
+  "seconds": 623.4
+ },
+ {
+  "config_id": "adamw_p71_a0.40_d128_h4_H512_wd1e+00_lr1e-03__clamp_unembed_rho0.85",
+  "arm": "clamp",
+  "group": "unembed",
+  "rho": 0.85,
+  "p": 71,
+  "alpha": 0.4,
+  "seeds": 16,
+  "grok_frac": 1.0,
+  "T_grok_median": 1974.0,
+  "seconds": 620.3
+ },
+ {
+  "config_id": "adamw_p71_a0.40_d128_h4_H512_wd1e+00_lr1e-03__clamp_unembed_rho1.00",
+  "arm": "clamp",
+  "group": "unembed",
+  "rho": 1.0,
+  "p": 71,
+  "alpha": 0.4,
+  "seeds": 16,
+  "grok_frac": 1.0,
+  "T_grok_median": 2439.5,
+  "seconds": 621.8
+ },
+ {
+  "config_id": "adamw_p71_a0.40_d128_h4_H512_wd1e+00_lr1e-03__clamp_unembed_rho1.15",
+  "arm": "clamp",
+  "group": "unembed",
+  "rho": 1.15,
+  "p": 71,
+  "alpha": 0.4,
+  "seeds": 16,
+  "grok_frac": 1.0,
+  "T_grok_median": 3280.0,
+  "seconds": 622.4
+ },
+ {
+  "config_id": "adamw_p71_a0.40_d128_h4_H512_wd1e+00_lr1e-03__clamp_unembed_rho1.30",
+  "arm": "clamp",
+  "group": "unembed",
+  "rho": 1.3,
+  "p": 71,
+  "alpha": 0.4,
+  "seeds": 16,
+  "grok_frac": 1.0,
+  "T_grok_median": 3727.5,
+  "seconds": 621.3
+ },
+ {
+  "config_id": "adamw_p71_a0.40_d128_h4_H512_wd1e+00_lr1e-03__clamp_mlp_rho0.85",
+  "arm": "clamp",
+  "group": "mlp",
+  "rho": 0.85,
+  "p": 71,
+  "alpha": 0.4,
+  "seeds": 16,
+  "grok_frac": 1.0,
+  "T_grok_median": 1408.0,
+  "seconds": 629.3
+ },
+ {
+  "config_id": "adamw_p71_a0.40_d128_h4_H512_wd1e+00_lr1e-03__clamp_mlp_rho1.30",
+  "arm": "clamp",
+  "group": "mlp",
+  "rho": 1.3,
+  "p": 71,
+  "alpha": 0.4,
+  "seeds": 16,
+  "grok_frac": 1.0,
+  "T_grok_median": 2405.0,
+  "seconds": 633.5
+ },
+ {
+  "config_id": "adamw_p71_a0.40_d128_h4_H512_wd1e+00_lr1e-03__clamp_embed_rho1.30",
+  "arm": "clamp",
+  "group": "embed",
+  "rho": 1.3,
+  "p": 71,
+  "alpha": 0.4,
+  "seeds": 16,
+  "grok_frac": 1.0,
+  "T_grok_median": 1715.0,
+  "seconds": 632.8
+ }
+]

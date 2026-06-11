@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: "The Weight Norm Sets the Grokking Timescale: A Causal Delay Law (code & data)"
+message: "If you use this code or data, please cite the paper and (optionally) the archived dataset."
+type: software
+authors:
+  - family-names: Truong
+    given-names: Xuan Khanh
+  - family-names: Doan
+    given-names: Hoang Viet
+  - family-names: Luu
+    given-names: Duc Trung
+  - family-names: Phan
+    given-names: Thanh Duc
+repository-code: "https://github.com/ClevixLab/critical-norm-grokking"
+keywords:
+  - grokking
+  - delayed generalization
+  - weight norm
+  - critical norm
+  - causal intervention
+  - weight decay
+  - delay law
+  - scaling law
+  - mechanistic interpretability
+  - learning dynamics
+license: MIT
+preferred-citation:
+  type: article
+  title: "The Weight Norm Sets the Grokking Timescale: A Causal Delay Law"
+  year: 2026
+  authors:
+    - family-names: Truong
+      given-names: Xuan Khanh
+    - family-names: Doan
+      given-names: Hoang Viet
+    - family-names: Luu
+      given-names: Duc Trung
+    - family-names: Phan
+      given-names: Thanh Duc
+# Full raw archive (per-seed metrics + structural Temp/ snapshots) is deposited on Zenodo:
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.XXXXXXX   # <-- fill in after creating the Zenodo deposit

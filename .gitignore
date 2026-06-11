@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+*.swp
+
+# Reproduction-regenerated figures (re-created by reproduce_all.py)
+figures/*_repro.pdf
